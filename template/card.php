@@ -1,7 +1,10 @@
 <div class="card">
+<div class="card-title text-center p-3"><?php echo $row['title'] ?></div>
 <img src="https://via.placeholder.com/50x50" alt="" class="card-img-top">
    <div class="card-body">
-   test
+   <?php echo $row['body'] ?>
+   <hr>
+   <?php echo $row['price'] ?>
    </div>
 
    <div class="card-footer">
